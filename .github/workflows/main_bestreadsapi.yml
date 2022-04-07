@@ -23,7 +23,9 @@ jobs:
           include-prerelease: true
 
       - name: Build with dotnet
-        run: dotnet build --configuration Release
+        run: |
+          dir
+          dotnet build --configuration Release
 
       - name: dotnet publish
         run: |
