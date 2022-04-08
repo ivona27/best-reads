@@ -30,7 +30,7 @@ jobs:
       - name: dotnet publish
         run: |
           dir
-          dotnet publish /UserService/UserServiceAPI/UserServiceAPI/UserServiceAPI.csproj -c Release -o ${{env.DOTNET_ROOT}}/myapp
+          dotnet publish ./UserService/UserServiceAPI/UserServiceAPI/UserServiceAPI.csproj -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
