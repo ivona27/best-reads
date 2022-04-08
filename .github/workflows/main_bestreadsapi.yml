@@ -25,7 +25,7 @@ jobs:
       - name: Build with dotnet
         run: |
           dir
-          dotnet build /UserService/UserServiceAPI/UserServiceAPI/UserServiceAPI.csproj --configuration Release
+          dotnet build UserService --configuration Release
 
       - name: dotnet publish
         run: |
