@@ -25,19 +25,15 @@ namespace UserService.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("email")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("first_name")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("last_name")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("username")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("id");

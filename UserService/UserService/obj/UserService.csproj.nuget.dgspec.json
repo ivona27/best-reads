@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivona\\Desktop\\Fontys\\SOFTWARE6\\INDIVIDUAL\\CODING\\UserService\\UserService\\UserService\\UserService.csproj": {}
+    "C:\\Users\\ivona\\Desktop\\Fontys\\SOFTWARE6\\INDIVIDUAL\\CODING\\git\\USER\\best-reads-backend-user\\UserService\\UserService\\UserService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivona\\Desktop\\Fontys\\SOFTWARE6\\INDIVIDUAL\\CODING\\UserService\\UserService\\UserService\\UserService.csproj": {
+    "C:\\Users\\ivona\\Desktop\\Fontys\\SOFTWARE6\\INDIVIDUAL\\CODING\\git\\USER\\best-reads-backend-user\\UserService\\UserService\\UserService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivona\\Desktop\\Fontys\\SOFTWARE6\\INDIVIDUAL\\CODING\\UserService\\UserService\\UserService\\UserService.csproj",
+        "projectUniqueName": "C:\\Users\\ivona\\Desktop\\Fontys\\SOFTWARE6\\INDIVIDUAL\\CODING\\git\\USER\\best-reads-backend-user\\UserService\\UserService\\UserService.csproj",
         "projectName": "UserService",
-        "projectPath": "C:\\Users\\ivona\\Desktop\\Fontys\\SOFTWARE6\\INDIVIDUAL\\CODING\\UserService\\UserService\\UserService\\UserService.csproj",
+        "projectPath": "C:\\Users\\ivona\\Desktop\\Fontys\\SOFTWARE6\\INDIVIDUAL\\CODING\\git\\USER\\best-reads-backend-user\\UserService\\UserService\\UserService.csproj",
         "packagesPath": "C:\\Users\\ivona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivona\\Desktop\\Fontys\\SOFTWARE6\\INDIVIDUAL\\CODING\\UserService\\UserService\\UserService\\obj\\",
+        "outputPath": "C:\\Users\\ivona\\Desktop\\Fontys\\SOFTWARE6\\INDIVIDUAL\\CODING\\git\\USER\\best-reads-backend-user\\UserService\\UserService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\ivona\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,21 +45,21 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[6.0.5, )"
             },
             "MySql.Data": {
               "target": "Package",
-              "version": "[8.0.28, )"
+              "version": "[8.0.29, )"
             },
             "MySql.Data.EntityFramework": {
               "target": "Package",
-              "version": "[8.0.28, )"
+              "version": "[8.0.29, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -69,7 +67,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.3.1, )"
             }
           },
           "imports": [

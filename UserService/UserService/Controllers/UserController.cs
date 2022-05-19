@@ -40,15 +40,29 @@ namespace UserService.Controllers
         [HttpPut]
         public async Task<ActionResult<UserModel>> UpdateUser(UserModel request)
         {
-            var dbuser = await _context.UserModels.FindAsync(request.id);
-            if (dbuser == null)
-                return BadRequest("User not found.");
-            dbuser.username = request.username;
-            dbuser.first_name = request.first_name;
-            dbuser.last_name = request.last_name;
-            dbuser.email = request.email;
+            var dbuser = _context.UserModels.AsNoTracking().Where(x => x.id == request.id).FirstOrDefault();
+
+            if (string.IsNullOrEmpty(request.username))
+            {
+                request.username = dbuser.username;
+            }
+            if (string.IsNullOrEmpty(request.first_name))
+            {
+                request.first_name = dbuser.first_name;
+            }
+            if (string.IsNullOrEmpty(request.last_name))
+            {
+                request.last_name = dbuser.last_name;
+            }
+            if (string.IsNullOrEmpty(request.email))
+            {
+                request.email = dbuser.email;
+            }
+
+            _context.UserModels.Update(request);
             await _context.SaveChangesAsync();
-            return Ok(await _context.UserModels.ToListAsync());
+
+            return Ok(await _context.UserModels.Where(x => x.id == request.id).FirstOrDefaultAsync());
         }
 
         [HttpDelete("{id}")]
