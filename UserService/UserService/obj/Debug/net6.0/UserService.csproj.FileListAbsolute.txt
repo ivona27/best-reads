@@ -126,3 +126,9 @@ C:\Users\ivona\Desktop\Fontys\SOFTWARE6\INDIVIDUAL\CODING\git\USER\best-reads-ba
 C:\Users\ivona\Desktop\Fontys\SOFTWARE6\INDIVIDUAL\CODING\git\USER\best-reads-backend-user\UserService\UserService\obj\Debug\net6.0\UserService.csproj.CopyComplete
 C:\Users\ivona\Desktop\Fontys\SOFTWARE6\INDIVIDUAL\CODING\git\USER\best-reads-backend-user\UserService\UserService\obj\Debug\net6.0\UserService.genruntimeconfig.cache
 C:\Users\ivona\Desktop\Fontys\SOFTWARE6\INDIVIDUAL\CODING\git\USER\best-reads-backend-user\UserService\UserService\obj\Debug\net6.0\ref\UserService.dll
+C:\Users\ivona\Desktop\Fontys\SOFTWARE6\INDIVIDUAL\CODING\git\USER\best-reads-backend-user\UserService\UserService\bin\Debug\net6.0\Google.Apis.dll
+C:\Users\ivona\Desktop\Fontys\SOFTWARE6\INDIVIDUAL\CODING\git\USER\best-reads-backend-user\UserService\UserService\bin\Debug\net6.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\ivona\Desktop\Fontys\SOFTWARE6\INDIVIDUAL\CODING\git\USER\best-reads-backend-user\UserService\UserService\bin\Debug\net6.0\Google.Apis.Auth.dll
+C:\Users\ivona\Desktop\Fontys\SOFTWARE6\INDIVIDUAL\CODING\git\USER\best-reads-backend-user\UserService\UserService\bin\Debug\net6.0\Google.Apis.Books.v1.dll
+C:\Users\ivona\Desktop\Fontys\SOFTWARE6\INDIVIDUAL\CODING\git\USER\best-reads-backend-user\UserService\UserService\bin\Debug\net6.0\Google.Apis.Core.dll
+C:\Users\ivona\Desktop\Fontys\SOFTWARE6\INDIVIDUAL\CODING\git\USER\best-reads-backend-user\UserService\UserService\bin\Debug\net6.0\Newtonsoft.Json.dll
