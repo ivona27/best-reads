@@ -1,6 +1,4 @@
-﻿using Google.Apis.Books.v1;
-using Google.Apis.Services;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using UserService.Models;
 
 namespace UserService.Controllers
@@ -77,27 +75,5 @@ namespace UserService.Controllers
             await _context.SaveChangesAsync();
             return Ok(await _context.UserModels.ToListAsync());
         }
-
-        [HttpGet("/volumes/volumeId")]
-        public async Task<IActionResult> GetBookById(string id)
-        {
-            var service = new BooksService(new BaseClientService.Initializer
-            {
-                ApiKey = "AIzaSyCelBA6XG6hpQ9hZc3_imP02BCzxLMjDms",
-            });
-            var result = service.Volumes.Get(id).Execute();
-            return Ok(result);
-        }
-
-        //[HttpGet("/volumes?q={search terms}")]
-        //public async Task<IActionResult> SearchBooks(string q)
-        //{
-        //    var service = new BooksService(new BaseClientService.Initializer
-        //    {
-        //        ApiKey = "AIzaSyCelBA6XG6hpQ9hZc3_imP02BCzxLMjDms",
-        //    });
-        //    var result = service.Volumes.List(q).Execute();
-        //    return Ok(result);
-        //}
     }
 }
