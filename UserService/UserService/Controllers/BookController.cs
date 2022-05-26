@@ -34,7 +34,7 @@ namespace UserService.Controllers
             {
                 ApiKey = "AIzaSyCelBA6XG6hpQ9hZc3_imP02BCzxLMjDms",
             });
-            var result = service.Volumes.List(q).Execute();
+            var result = service.Volumes.List(q).Execute().Items.Take(5);
             return Ok(result);
         }
 
